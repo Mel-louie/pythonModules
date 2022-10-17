@@ -2,3 +2,4 @@ conda list
 conda list numpy && cat /mnt/nfs/homes/$USER/goinfre/miniconda3/envs/42AI-$USER/conda-meta/numpy-1*
 conda remove numpy
 conda install numpy
+conda list --export > requirements.txt
