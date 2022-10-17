@@ -20,3 +20,5 @@ metapackage https://stackoverflow.com/questions/50699252/anaconda-environment-in
 export and import https://stackoverflow.com/questions/41979133/import-conda-package-list-to-default-env
 
 if __name__ == __main__  https://www.journaldunet.fr/web-tech/developpement/1202931-python-qu-est-ce-que-produit-le-code-if-name-main/
+
+norme  pycodestyle ex0*/*.py

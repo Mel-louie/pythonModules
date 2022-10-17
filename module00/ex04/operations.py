@@ -1,7 +1,8 @@
 import sys
 
 if len(sys.argv) < 3:
-    print("Usage: python operations.py <number1> <number2>\nExample:\n\tpython operations.py 10 3")
+    print("Usage: python operations.py <number1> <number2>")
+    print("Example:\n\tpython operations.py 10 3")
     sys.exit()
 elif len(sys.argv) > 3:
     print("AssertionError: too many arguments")
