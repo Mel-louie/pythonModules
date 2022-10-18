@@ -1,8 +1,12 @@
 # to do
 [] finish tests
+
 [] test manually everything
+
 [x] check forbidden functions and add them to tests
+
 [] clean this readme
+
 
 # Ressources
 
