@@ -4,7 +4,6 @@
 [] check forbidden functions and add them to tests
 [] clean this readme
 
-
 # Ressources
 
 about conda:
