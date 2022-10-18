@@ -15,17 +15,20 @@ def text_analyzer(text: str = ""):
     if text == "":
         text = input("What is the text to analyze?\n>> ")
 
-    print("The text contains", len(text), "character(s)")
-    print("- ", sum(1 for c in text if c.isupper()), " upper letter(s)")
-    print("- ", sum(1 for c in text if c.islower()), " lower letter(s)")
+    print("The text contains", len(text), "character(s):")
+    print("-", sum(1 for c in text if c.isupper()), "upper letter(s)")
+    print("-", sum(1 for c in text if c.islower()), "lower letter(s)")
     print(
-        "- ",
+        "-",
         sum(1 for c in text if c in string.punctuation),
-        " punctuation mark(s)")
-    print("- ", sum(1 for c in text if c.isspace()), " space(s)")
+        "punctuation mark(s)")
+    print("-", sum(1 for c in text if c.isspace()), "space(s)")
 
 
 if __name__ == "__main__":
+    if len(sys.argv)==2 and sys.argv[1]=='--help':
+        print(text_analyzer.__doc__)
+        sys.exit()
     if len(sys.argv) > 2:
         print("AssertionError: to much arguments")
         sys.exit()
