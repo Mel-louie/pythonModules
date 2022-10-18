@@ -1,5 +1,9 @@
 # to do
 [] end tests
+[] test manually everything
+[] check forbidden functions and add them to tests
+[] clean this readme
+
 
 # Ressources
 
@@ -22,3 +26,18 @@ export and import https://stackoverflow.com/questions/41979133/import-conda-pack
 if __name__ == __main__  https://www.journaldunet.fr/web-tech/developpement/1202931-python-qu-est-ce-que-produit-le-code-if-name-main/
 
 norme  pycodestyle ex0*/*.py
+
+on yield:
+yield is like a return that gives values multiple times and let's you use the function in a for loop.
+
+For example:
+```
+def iterate_user_ids():
+    # Let's imagine this is a web API, not a range()
+    for i in range(100):
+        yield i
+
+for i in iterate_user_ids():
+    print(i)
+```
+would print each of the "user IDs" (here it's just the numbers from 0 to 99).
